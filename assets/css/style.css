@@ -1301,9 +1301,11 @@ div#offcanvasTop {
   to {background-color: rgb(127, 180, 50)}
 }
 .about-image{
-  width: 521px;
-  height: 552px;
-  border-radius: 50%;
+  /* width: 521px;
+  height: 552px; */
+  /* border-radius: 100%; */
+  /* border-radius: 50%;  */
+  object-fit: cover;
 }
 .about-image-bottom{
   position: absolute;
@@ -1774,8 +1776,8 @@ button:focus:not(:focus-visible) {
   margin-bottom: 5px;
 }
 .team-image{
-  width: 366px;
-  height: 475px;
+  /* width: 366px;
+  height: 475px; */
   border-radius: 0px 50px;
 }
 .team-image img{
@@ -2257,6 +2259,9 @@ footer.main__footer .f-love3{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.space{
+  height: 20px;
 }
 .copyright-left{
   display: flex;
